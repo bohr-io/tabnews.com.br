@@ -11,6 +11,7 @@ module.exports = {
     styledComponents: true,
   },
   swcMinify: false,
+  output: 'standalone',
   async redirects() {
     return [
       {
